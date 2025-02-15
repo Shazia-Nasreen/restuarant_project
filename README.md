@@ -32,6 +32,8 @@ Open the index.html file in your browser to view the website.
 
 Technologies Used
 HTML for structure and content
+![image](https://github.com/user-attachments/assets/550371aa-5938-408c-a357-e1400522b043)
+
 CSS for styling and layout
 JavaScript for interactive functionality
 Git for version control
