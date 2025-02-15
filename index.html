@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taverna – Autentisk Amerikansk BBQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Välkomstmeddelande -->
+    <header>
+        <h1>Välkommen till Taverna</h1>
+        <p>En anrik restaurang med över 40 års gastronomisk historia och en ny, spännande era! Från italienska delikatesser till autentisk amerikansk BBQ – en smakupplevelse du inte vill missa.</p>
+        <p>Vi slår upp dörrarna igen i början av 2025. Håll ögonen öppna!</p>
+    </header>
+
+    <!-- Sökruta -->
+    <input type="text" id="searchBar" placeholder="Sök efter mat...">
+
+    <!-- Kategoriknappar -->
+    <div class="filters">
+        <button class="filter-btn" data-category="bbqs">BBQs (59)</button>
+        <button class="filter-btn" data-category="best-foods">Best Foods (60)</button>
+        <button class="filter-btn" data-category="breads">Breads (58)</button>
+        <button class="filter-btn" data-category="burgers">Burgers (60)</button>
+        <button class="filter-btn" data-category="chocolates">Chocolates (59)</button>
+        <button class="filter-btn" data-category="desserts">Desserts (43)</button>
+        <button class="filter-btn" data-category="drinks">Drinks (48)</button>
+        <button class="filter-btn" data-category="fried-chicken">Fried Chicken (58)</button>
+        <button class="filter-btn" data-category="ice-cream">Ice Cream (27)</button>
+        <button class="filter-btn" data-category="pizzas">Pizzas (54)</button>
+        <button class="filter-btn" data-category="porks">Porks (60)</button>
+        <button class="filter-btn" data-category="sandwiches">Sandwiches (55)</button>
+        <button class="filter-btn" data-category="sausages">Sausages (60)</button>
+        <button class="filter-btn" data-category="steaks">Steaks (57)</button>
+        <button class="filter-btn" data-category="all">Alla Rätter (697)</button>
+    </div>
+
+    <!-- Featured Section -->
+    <section id="featured">
+        <h2>Dagens Featured Items</h2>
+        <div id="featuredItems"></div>
+    </section>
+
+    <!-- Menyvisning -->
+    <div id="menu"></div>
+    
+    <!-- Orderlista -->
+    <h2>Din beställning</h2>
+    <ul id="orderList"></ul>
+
+    <!-- Skicka beställning -->
+    <button id="submitBtn">Slutför beställning</button>
+
+    <!-- Feedback Section -->
+    <section id="feedbackSection">
+        <h2>Lämna en recension</h2>
+        <textarea id="feedbackInput" rows="4" placeholder="Dela din upplevelse och ge oss feedback..."></textarea>
+        <br>
+        <button id="submitFeedbackBtn">Skicka Recension</button>
+        <p id="feedbackMessage"></p>
+    </section>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
